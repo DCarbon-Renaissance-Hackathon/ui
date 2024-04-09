@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #ffffff;
+}
+
+/* Lexend */
+@font-face {
+  font-family: 'Lexend';
+  src: url('/fonts/lexend/Lexend-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Lexend';
+  src: url('/fonts/lexend/Lexend-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Lexend';
+  src: url('/fonts/lexend/Lexend-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Lexend';
+  src: url('/fonts/lexend/Lexend-SemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Lexend';
+  src: url('/fonts/lexend/Lexend-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Lexend';
+  src: url('/fonts/lexend/Lexend-ExtraBold.ttf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Lexend';
+  src: url('/fonts/lexend/Lexend-Black.ttf');
+  font-weight: 900;
+}
+
+/* Lexend Deca */
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('/fonts/lexend_deca/LexendDeca-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('/fonts/lexend_deca/LexendDeca-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('/fonts/lexend_deca/LexendDeca-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('/fonts/lexend_deca/LexendDeca-SemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('/fonts/lexend_deca/LexendDeca-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('/fonts/lexend_deca/LexendDeca-ExtraBold.ttf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url('/fonts/lexend_deca/LexendDeca-Black.ttf');
+  font-weight: 900;
+}
+
+/* Space Grotesk */
+
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/space_grotesk/SpaceGrotesk-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/space_grotesk/SpaceGrotesk-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/space_grotesk/SpaceGrotesk-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/space_grotesk/SpaceGrotesk-SemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  src: url('/fonts/space_grotesk/SpaceGrotesk-Bold.ttf');
+  font-weight: 700;
+}
+
+/* Inter */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/Inter-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/Inter-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/Inter-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/Inter-SemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/Inter-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/Inter-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+.custom_table::-webkit-scrollbar {
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(243, 246, 243, 1);
+  border-radius: 99px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 1);
+  border-radius: 99px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
